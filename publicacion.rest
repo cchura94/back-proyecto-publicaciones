@@ -1,0 +1,89 @@
+GET http://127.0.0.1:3000/publicacion
+
+### Guardar
+POST http://127.0.0.1:3000/publicacion
+Content-Type: application/json
+
+{
+    "categoria": "Inmuebles",
+    "precio": "$120,000",
+    "titulo": "Apartamento Moderno",
+    "descripcion": "Departamento de 3 habitaciones con vista panorámica.",
+    "imagenes": [
+        "https://picsum.photos/seed/apartamento1/800/600",
+        "https://picsum.photos/seed/apartamento2/800/600",
+        "https://picsum.photos/seed/apartamento3/800/600"
+    ],
+    "user": "@user123",
+    "fecha": "Hace 1 hora"
+}
+
+###
+POST http://127.0.0.1:3000/publicacion
+Content-Type: application/json
+
+{
+    "categoria": "Vehículos",
+    "precio": "$15,500",
+    "titulo": "Toyota Corolla 2020",
+    "descripcion": "Excelente estado, único dueño, mantenimiento al día.",
+    "imagenes": [
+        "https://picsum.photos/seed/carro1/800/600",
+        "https://picsum.photos/seed/carro2/800/600",
+        "https://picsum.photos/seed/carro3/800/600"
+    ],
+    "user": "@carlover",
+    "fecha": "Hace 2 horas"
+}
+
+###
+POST http://127.0.0.1:3000/publicacion
+Content-Type: application/json
+
+{
+    "categoria": "Electrónica",
+    "precio": "$850",
+    "titulo": "MacBook Air M2",
+    "descripcion": "Laptop de 13 pulgadas, 16 GB RAM, 512 GB SSD.",
+    "imagenes": [
+        "https://picsum.photos/seed/macbook1/800/600",
+        "https://picsum.photos/seed/macbook2/800/600"
+    ],
+    "user": "@techstore",
+    "fecha": "Hace 5 horas"
+}
+
+###
+POST http://127.0.0.1:3000/publicacion
+Content-Type: application/json
+
+{
+    "categoria": "Hogar",
+    "precio": "$250",
+    "titulo": "Sofá de 3 plazas",
+    "descripcion": "Sofá moderno color gris, poco uso y excelente estado.",
+    "imagenes": [
+        "https://picsum.photos/seed/sofa1/800/600",
+        "https://picsum.photos/seed/sofa2/800/600",
+        "https://picsum.photos/seed/sofa3/800/600"
+    ],
+    "user": "@hogarplus",
+    "fecha": "Hace 8 horas"
+}
+
+###
+POST http://127.0.0.1:3000/publicacion
+Content-Type: application/json
+
+{
+    "categoria": "Moda",
+    "precio": "$45",
+    "titulo": "Chaqueta de cuero",
+    "descripcion": "Chaqueta unisex talla M, cuero sintético, color negro.",
+    "imagenes": [
+        "https://picsum.photos/seed/chaqueta1/800/600",
+        "https://picsum.photos/seed/chaqueta2/800/600"
+    ],
+    "user": "@fashionstyle",
+    "fecha": "Hace 1 día"
+}
