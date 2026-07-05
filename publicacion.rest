@@ -1,21 +1,27 @@
 GET http://127.0.0.1:3000/publicacion
 
 ### Guardar
-POST http://127.0.0.1:3000/publicacion
+POST http://127.0.0.1:3000/api/publicacion
 Content-Type: application/json
 
 {
     "categoria": "Inmuebles",
-    "precio": "$120,000",
-    "titulo": "Apartamento Moderno",
-    "descripcion": "Departamento de 3 habitaciones con vista panorámica.",
+    "precio": "$1200",
+    "titulo": "Alquiler de Oficinas",
+    "descripcion": "Alquier de Oficina.",
     "imagenes": [
+        "https://picsum.photos/seed/apartamento1/800/600",
+        "https://picsum.photos/seed/apartamento2/800/600",
+        "https://picsum.photos/seed/apartamento3/800/600",
+        "https://picsum.photos/seed/apartamento1/800/600",
+        "https://picsum.photos/seed/apartamento2/800/600",
+        "https://picsum.photos/seed/apartamento3/800/600",
         "https://picsum.photos/seed/apartamento1/800/600",
         "https://picsum.photos/seed/apartamento2/800/600",
         "https://picsum.photos/seed/apartamento3/800/600"
     ],
     "user": "@user123",
-    "fecha": "Hace 1 hora"
+    "fecha": "Hace 0 hora"
 }
 
 ###
